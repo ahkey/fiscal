@@ -4,3 +4,5 @@ gem "nokogiri"
 gem "pry"
 gem "minitest"
 gem "httparty"
+gem "sinatra"
+
