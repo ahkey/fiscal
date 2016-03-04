@@ -8,6 +8,3 @@ Parse https://www.dailyfx.com/calendar
 ##todos
 
 - make it work for date ranges(weeks?)
-- wrap a sinatra around it
-- make it API'able
- > Write tests for Event/Events?
