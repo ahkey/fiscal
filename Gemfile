@@ -6,7 +6,7 @@ gem "httparty"
 gem "sinatra"
 gem "mongoid"
 gem "rake"
-
+gem "shotgun"
 
 group :test do
 	gem "minitest", require: "minitest/autorun"
