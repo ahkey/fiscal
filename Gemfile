@@ -1,10 +1,9 @@
 source "http://rubygems.org"
 
-ruby '2.2.4'
+ruby '2.2.2'
 
 gem "nokogiri"
 gem "pry"
-gem "httparty"
 gem "sinatra"
 gem "mongoid"
 gem "rake"

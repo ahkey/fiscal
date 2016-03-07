@@ -15,7 +15,6 @@ class App < Sinatra::Base
 
   get '/filter' do
     content_type :json
-
     country = "usd"
     importance = "high"
     if params[:country] != nil && params[:country] != ""
