@@ -1,27 +1,11 @@
 class Event
-  def initialize(attributes={})
-    @event = attributes
-  end
+  include Mongoid::Document
+  belongs_to :calendar
 
-  def name(t)
-    case t
-    when Regexp
-      @event[:name][t]
-    when String
-      @event[:name] == t
-    end
-  end
+  field :date, type: DateTime
+  field :name, type: String
+  field :country, type: String
+  field :importance, type: String
 
-  def country(g)
-    @event[:country] == g
-  end
-
-  def importance(y)
-    @event[:importance] == y
-  end
-
-  def details
-    @event
-  end
 
 end

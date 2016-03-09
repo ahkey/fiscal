@@ -4,3 +4,9 @@ development:
       database: fiscal
       hosts:
         - "localhost:27017"
+test:
+  clients:
+    default:
+      database: fiscal_test
+      hosts:
+        - "localhost:27017"
