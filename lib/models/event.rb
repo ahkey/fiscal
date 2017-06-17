@@ -7,5 +7,4 @@ class Event
   field :country, type: String
   field :importance, type: String
 
-
 end

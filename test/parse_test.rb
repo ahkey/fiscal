@@ -36,7 +36,4 @@ class ParseTest < MiniTest::Test
   def test_country_code_substring
     assert_match @parse.events.first[:country], "nzd"
   end
-
-
-
 end

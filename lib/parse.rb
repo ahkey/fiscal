@@ -47,7 +47,4 @@ class Parse
    end
   events
  end
-
-
-
 end
